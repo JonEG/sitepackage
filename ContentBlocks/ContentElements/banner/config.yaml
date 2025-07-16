@@ -1,0 +1,33 @@
+name: jondevelops/banner
+typeName: jondevelops_banner
+group: default
+prefixFields: true
+prefixType: full
+fields:
+  -
+    identifier: position
+    label: Position
+    type: Select
+    renderType: selectSingle
+    name: Display Position
+    items:
+      - value: top
+      - value: bottom
+    defaultValue: top
+  -
+    identifier: background-color
+    type: Color
+  -
+    identifier: text-color
+    type: Color
+  -
+    identifier: content
+    type: Textarea
+    name: Banner Content
+    enableRichtext: true
+  -
+    identifier: url
+    type: Link
+    allowedTypes:
+      - page
+
