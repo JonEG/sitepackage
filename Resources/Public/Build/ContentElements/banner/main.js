@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{document.querySelectorAll("[data-banner]").forEach(e=>{const t=e.querySelector("[data-banner-close-button]");t&&t.addEventListener("click",()=>{e.style.display="none"})})});
