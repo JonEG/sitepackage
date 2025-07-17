@@ -30,12 +30,3 @@ composer require jondevelops/sitepackage:@dev
 on Advanced Options, uncheck Clear -> Contants and Setup.
 
 * Step 5 Clean cache.
-
-## Build Vite files
-```bash
-cd packages/sitepackage/Resources/Private/vite-compiler/
-nvm i
-nvm use
-npm install
-npm run build
-```
